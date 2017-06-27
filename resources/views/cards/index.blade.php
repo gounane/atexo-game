@@ -2,10 +2,9 @@
 
 @section('content')
     
-    <div class="jumbotron">
-        <h1>Atexo test</h1>
-        <p>Dans ce jeu, chaque joueur recevra une main de 10 cartes tirées de manière aléatoire.</p>
-    </div>
+    <div class="text-center row">
+        <img src="/images/cards.jpg" alt="" title=""/>
+    </div><hr>
 
     @if(!empty($data))
         <div id="box_cards" class="row">
