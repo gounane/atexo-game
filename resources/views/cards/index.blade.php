@@ -26,7 +26,7 @@
         <div class="text-center alert alert-warning" role="alert">
             <strong>Les données sont indisponibles pour le moments, actualiez cette page !</strong>
         </div>
-    @endif;
+    @endif
 @stop
 
 @section('scripts')
