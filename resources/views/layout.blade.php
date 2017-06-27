@@ -23,6 +23,15 @@
     <![endif]-->
   </head>
   <body>
+    <!-- Static navbar -->
+    <nav class="navbar navbar-default navbar-static-top">
+      <div class="container">
+        <div class="navbar-header">
+            <a class="navbar-brand" href="/">Atexo Game</a>
+        </div>
+      </div>
+    </nav>
+
     <div class="container">
         @yield('content')
     </div>
