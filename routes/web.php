@@ -11,6 +11,5 @@
 |
 */
 
-Route::get('/', function () {
-    return view('welcome');
-});
+Route::get('/', 'CardsController@index');
+Route::post('/api/cards/check', 'CardsController@check');
