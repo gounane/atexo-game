@@ -20,6 +20,7 @@
             @endforeach
         </div>
         <a href="#" class="btn btn-primary" id="check_result">Vérifer ce résultat</a>
+        <a href="/cards" class="btn btn-success" id="check_result">Rejouer</a>
         <hr>
         <div id="message" class="text-center alert" role="alert"></div>
     @else
